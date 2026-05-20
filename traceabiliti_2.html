@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PT. Vessel Fresh Fish Indomakmur - Traceability System</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#f4f7fb;
+    color:#333;
+}
+
+/* HEADER */
+
+.header{
+    background:linear-gradient(135deg,#8B0000,#C62828);
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:70px;
+}
+
+.logo h1{
+    font-size:24px;
+}
+
+.nav{
+    display:flex;
+    gap:25px;
+}
+
+.nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+    background:url('https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=1200') center/cover;
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+    position:relative;
+}
+
+.hero::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.5);
+}
+
+.hero-content{
+    position:relative;
+    z-index:1;
+}
+
+.hero h2{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+/* CONTAINER */
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+/* CARD */
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:30px;
+    margin-bottom:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* TRACE CODE */
+
+.trace-code{
+    background:#8B0000;
+    color:white;
+    padding:20px;
+    text-align:center;
+    border-radius:12px;
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+/* TABLE */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th{
+    background:#8B0000;
+    color:white;
+    padding:14px;
+    text-align:left;
+}
+
+table td{
+    padding:14px;
+    border-bottom:1px solid #ddd;
+}
+
+.status{
+    display:inline-block;
+    padding:8px 18px;
+    background:#16a34a;
+    color:white;
+    border-radius:30px;
+    font-weight:600;
+}
+
+/* PROCESS */
+
+.process{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+    margin-top:20px;
+}
+
+.step{
+    background:#f8fafc;
+    border-left:5px solid #8B0000;
+    padding:15px;
+    border-radius:10px;
+    font-size:14px;
+}
+
+/* QR */
+
+.qr-section{
+    text-align:center;
+    margin-top:30px;
+}
+
+.qr-section img{
+    width:220px;
+    margin-top:15px;
+}
+
+/* FOOTER */
+
+.footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+
+.footer p{
+    margin:5px 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<div class="header">
+
+<div class="logo">
+
+<img src="https://i.imgur.com/4M34hi2.png">
+
+<div>
+<h1>PT. Vessel Fresh Fish Indomakmur</h1>
+<p>Seafood Traceability System</p>
+</div>
+
+</div>
+
+<div class="nav">
+<a href="#">Home</a>
+<a href="#">Traceability</a>
+<a href="#">Export</a>
+<a href="#">Quality Assurance</a>
+<a href="#">Contact</a>
+</div>
+
+</div>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<div class="hero-content">
+<h2>Digital Traceability System</h2>
+<p>Frozen Breaded Shrimp Export Product</p>
+</div>
+
+</div>
+
+<!-- CONTENT -->
+
+<div class="container">
+
+<div class="card">
+
+<h2>Product Traceability Information</h2>
+
+<div class="trace-code">
+VF/51-FS-00-05.05.26-05.05.26-110/JP
+</div>
+
+<table>
+
+<tr>
+<th>Parameter</th>
+<th>Information</th>
+</tr>
+
+<tr>
+<td>Company</td>
+<td>PT. Vessel Fresh Fish Indomakmur</td>
+</tr>
+
+<tr>
+<td>Supplier</td>
+<td>PT. Dwi Bina Utama</td>
+</tr>
+
+<tr>
+<td>Product</td>
+<td>Breaded Frozen Shrimp - Panko Ebi M50</td>
+</tr>
+
+<tr>
+<td>Packaging</td>
+<td>50 gr x 10 pcs/tray</td>
+</tr>
+
+<tr>
+<td>Production Date</td>
+<td>05 Mei 2026</td>
+</tr>
+
+<tr>
+<td>Expiration Date</td>
+<td>05 Mei 2028</td>
+</tr>
+
+<tr>
+<td>Freezing Method</td>
+<td>Air Blast Freezing (ABF)</td>
+</tr>
+
+<tr>
+<td>Storage Temperature</td>
+<td>-18°C</td>
+</tr>
+
+<tr>
+<td>Export Destination</td>
+<td>Japan</td>
+</tr>
+
+<tr>
+<td>QC Status</td>
+<td><span class="status">APPROVED</span></td>
+</tr>
+
+</table>
+
+</div>
+
+<!-- PROCESS -->
+
+<div class="card">
+
+<h2>Processing Flow</h2>
+
+<div class="process">
+
+<div class="step">Receiving Raw Material</div>
+<div class="step">Sorting & Sizing</div>
+<div class="step">Washing</div>
+<div class="step">Peeling & Deveining</div>
+<div class="step">Stretching</div>
+<div class="step">Soaking</div>
+<div class="step">Predust</div>
+<div class="step">Battering</div>
+<div class="step">Breading</div>
+<div class="step">ABF Freezing</div>
+<div class="step">Packing</div>
+<div class="step">Cold Storage</div>
+<div class="step">Stuffing Export</div>
+
+</div>
+
+</div>
+
+<!-- QR -->
+
+<div class="card qr-section">
+
+<h2>QR Code Product</h2>
+
+<p>Scan QR code to access product traceability information</p>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://vesselfreshfish.github.io/traceability?id=1">
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+
+<div class="footer">
+
+<p>PT. Vessel Fresh Fish Indomakmur © 2026</p>
+<p>Integrated Seafood Export Traceability System</p>
+
+</div>
+
+</body>
+</html>
